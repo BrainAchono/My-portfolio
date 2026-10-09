@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+    content="width=divice-width,intioal-scale=1.0">
+        <title>Brian Achono</title>
+        <link rel="stylesheet"href="brian.css">
+    </head>
+    <body>
+        <p>A responsive and interactive personal portfolio website developed to showcase my academic background, technical skills, projects, achievements, and professional interests. The website provides visitors with an easy way to learn about me and get in touch.
+
+            </p>Designing and Frontend(What we have now):
+            <li>CSS Flexbox</li>
+            <li> HTML5 Murkup</li>
+            <li>Image optimazion</li>
+            <li>Canva / Figma</li>
+            <li>Video editing</li>
+            <li>Formationg and editing</li>
+
+            <p>softwere skills(important for pups projects)</p>
+            <li>Problem solving</li>
+        </P>
+
+        </body>
+        </html>

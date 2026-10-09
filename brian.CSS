@@ -1,0 +1,20 @@
+body{
+    background-color: #1b184480;
+    font-family: times new roman, sans-serif;
+    border: dotted;
+    align-items: center;
+}
+header{
+    background-color: #595a394b;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+.navbar {
+    background-color: #000503c0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: letf;
+}
