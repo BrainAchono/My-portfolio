@@ -1,72 +1,313 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Brian Achono's personal portfolio showcasing coding and cybersecurity interests.">
-    <title>Brian Achono | My Portfolio</title>
+    <meta name="description" content="Brian Achono's personal portfolio, education, technical skills and projects.">
+    <title>Brian Achono | Personal Portfolio</title>
     <link rel="stylesheet" href="brian.css">
 </head>
 
 <body>
     <header>
-        <h1>Brian Achono</h1>
-        <p>My Personal Portfolio</p>
-        <nav>
-            <ul>
-                <li><a href="brian_index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+        <nav class="wrap">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
+
     <main>
-        <section id="introduction">
-            <h2>Welcome to My Portfolio</h2>
-            <p>
-                Hello, I am Brian Achono. Coding and cybersecurity
-                are my passions. This is my personal portfolio
-                where you can learn more about me, explore my
-                projects and interact with me.
-            </p>
+        <section class="wrap home" id="home">
+            <div class="hero-content">
+                <h1>
+                    Hello, I'm
+                    <span>Brian Achono.</span>
+                    <br>
+                    Aspiring IT Professional.
+                </h1>
+
+                <p class="lead">
+                    I am passionate about technology, programming
+                    and cybersecurity. I enjoy learning new
+                    technologies, solving problems and developing
+                    creative solutions through code.
+                </p>
+
+                <div class="actions">
+                    <a class="btn primary" href="#projects">
+                        Explore My Projects 
+                    </a>
+
+                    <a class="btn" href="#contact">
+                        Contact Me
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="portrait">
+                <img src="brian.jpg.jpeg" alt="Profile picture of Brian Achono">
+            </div>
+
         </section>
-        <section id="projects">
-            <h2>My Projects</h2>
-            <div class="project-list">
-                <div class="card">
-                    <img src="brian.jpg.jpeg" alt="Brian Achono's profile picture">
-                    <h3>My Portfolio</h3>
-                    <p>
-                        This is my personal portfolio website
-                        developed using HTML and CSS to showcase
-                        my skills, interests and projects.
+
+        <section id="about">
+
+            <div class="wrap">
+                <div class="section-head">
+                    <div class="kicker">A little about me</div>
+                    <h2>My Background and Education</h2>
+                </div>
+
+
+                <div class="about-grid">
+                    <div class="panel">
+                        <h3>Who I Am</h3>
+
+                        <p>
+                            My name is Brian Achono. I am an aspiring
+                            Information Technology professional with
+                            a strong interest in programming,
+                            technology and cybersecurity.
+
+                            I enjoy exploring how technology works,
+                            developing software solutions and
+                            continuously improving my technical
+                            abilities. I am committed to learning,
+                            growing and using technology to solve
+                            real-world problems.
+                        </p>
+
+                    </div>
+                    <div class="education">
+                        <h3>My Educational Journey</h3>
+                        <div class="education-item">
+                            <strong>2025 – Present</strong>
+                            <h4>Diploma in Information Technology</h4>
+                            <p>
+                                Currently pursuing a Diploma in
+                                Information Technology.
+                            </p>
+                        </div>
+
+
+                        <div class="education-item">
+                            <strong>2021 – 2025</strong>
+                            <h4>Serem Boys High School</h4>
+                            <p>
+                                Completed my secondary school
+                                education in 2025.
+                            </p>
+                        </div>
+
+
+                        <div class="education-item">
+                            <strong>2012 – 2021</strong>
+                            <h4>Little Rose's Education Center</h4>
+                            <p>
+                                Completed my primary school
+                                education in 2021.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section id="skills">
+
+            <div class="wrap">
+                <div class="section-head">
+                    <div class="kicker">What I can do</div>
+                    <h2>My Technical Skills</h2>
+                    <p class="sub">
+                        Technologies and programming languages
+                        I have been learning and working with.
                     </p>
+
+                </div>
+
+                <div class="skills">
+                    <div class="skill">
+                        <div class="icon">C++</div>
+                        <h3>C++ Programming</h3>
+                        <p>
+                            Understanding object-oriented
+                            programming, logical thinking and
+                            developing efficient software solutions.
+                        </p>
+                    </div>
+
+                    <div class="skill">
+                        <div class="icon">C</div>
+                        <h3>C Programming</h3>
+                        <p>
+                            Writing structured programs,
+                            understanding programming fundamentals
+                            and developing problem-solving skills.
+                        </p>
+                    </div>
+
+                    <div class="skill">
+                        <div class="icon">HTML</div>
+                        <h3>HTML</h3>
+                        <p>
+                            Creating well-structured web pages
+                            using HTML elements, forms and
+                            semantic website layouts.
+                        </p>
+                    </div>
+
+                    <div class="skill">
+                        <div class="icon">CSS</div>
+                        <h3>CSS</h3>
+                        <p>
+                            Designing attractive and responsive
+                            websites using styling, layouts,
+                            colours and animations.
+                        </p>
+                    </div>
+
+                    <div class="skill">
+                        <div class="icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>
+                            Adding interactivity to websites
+                            through scripting, event handling
+                            and dynamic web elements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="projects">
+
+            <div class="wrap">
+                <div class="section-head">
+                    <div class="kicker">My work</div>
+                    <h2>Projects and Activities</h2>
+                    <p class="sub">
+                        A showcase of my learning journey,
+                        practical work and personal projects.
+                    </p>
+                </div>
+
+                <div class="projects">
+                    <article class="project">
+                        <div class="project-art">🌐</div>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            A personal website developed using
+                            HTML and CSS to showcase my background,
+                            skills and interests.
+                        </p>
+                        <span class="tag">HTML / CSS</span>
+                    </article>
+
+                    <article class="project">
+                        <div class="project-art">💻</div>
+                        <h3>Programming Projects</h3>
+                        <p>
+                            Practical programming exercises
+                            focused on developing logical thinking,
+                            understanding algorithms and solving
+                            problems using C and C++.
+                        </p>
+                        <span class="tag">C / C++</span>
+                    </article>
+
+                    <article class="project">
+                        <div class="project-art">🔐</div>
+                        <h3>Cybersecurity Learning</h3>
+                        <p>
+                            Exploring cybersecurity concepts,
+                            digital safety, computer networks
+                            and responsible technology practices.
+                        </p>
+                        <span class="tag">Cybersecurity</span>
+                    </article>
                 </div>
             </div>
         </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form action="submit_form.php" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
 
-                <button type="submit">Send Message</button>
-            </form>
+        <section id="contact">
+            <div class="wrap">
+                <div class="contact-box">
+                    <div>
+                        <div class="kicker">Let's connect</div>
+                        <h2>Get In Touch With Me</h2>
+                        <p>
+                            I am always interested in learning,
+                            connecting with people in technology
+                            and exploring opportunities for
+                            growth and collaboration.
+                        </p>
+                    </div>
+                    <form action="submit_form.php" method="POST">
+
+                        <label for="name">Full Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+                        <label for="message">Your Message</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Write your message here..."
+                            required
+                        ></textarea>
+
+
+                        <button type="submit">
+                            Send Message ↗
+                        </button>
+
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
+
+
+    <!-- FOOTER -->
     <footer>
 
-        <p>&copy; 2026 Brian Achono. All rights reserved.</p>
+        <div class="wrap footer-inner">
 
+            <span>
+                &copy; 2026 Brian Achono. All rights reserved.
+            </span>
+        </div>
     </footer>
-    <script src="brian work.js"></script>
+
+    <script src="brians_work.js"></script>
 
 </body>
 </html>
