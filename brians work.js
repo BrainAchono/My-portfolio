@@ -1,7 +1,7 @@
-document.addEventListener("DOMContentLoaded", function ()
-{
 
-    //   welcome message based on the time
+document.addEventListener("DOMContentLoaded", function () {
+
+    // Welcome message based on the time
     const welcome = document.querySelector("h2");
     const hour = new Date().getHours();
 
@@ -15,21 +15,14 @@ document.addEventListener("DOMContentLoaded", function ()
         }
     }
 
-    // profile picture when clicked
-    const picture = document.querySelector("img");
+    // Profile picture enlargement when clicked
+    const picture = document.querySelector(".profile-picture");
 
     if (picture) {
         picture.style.cursor = "pointer";
 
-        picture.addEventListener("click", function ()
-        {
-            if (picture.style.width === "500px") {
-                picture.style.width = "300px";
-                picture.style.height = "200px";
-            } else {
-                picture.style.width = "300px";
-                picture.style.height = "300px";
-            }
+        picture.addEventListener("click", function () {
+            picture.classList.toggle("enlarged");
         });
     }
 
